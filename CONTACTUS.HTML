@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <STYLe>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: paleturquoise;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            height: 400px;
+            width: 1000px;
+            background: white;
+            display: flex;
+            box-shadow: 0 4px 8px rgba(255, 0255, 0255, 0.1);
+            padding: 20px;
+
+
+        }
+
+        .details {
+            height: 100%;
+            width: 40%;
+            padding-right: 30px;
+            border-right: 1px solid blue;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+        }
+
+        .container .details {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            left: 10px;
+
+        }
+
+
+
+
+
+        .details h6 {
+            color: gray;
+            margin: 5px 0;
+            color: gray;
+            font-size: 14px;
+        }
+
+        .deatils h3 {
+            margin: 0px 10px;
+            font-size: 18px;
+            color: black;
+        }
+
+        .details i {
+            color: darkblue;
+            font-size: 24px;
+            margin-bottom: 0px;
+            margin-top: 10px;
+        }
+
+
+
+        .form {
+            width: 60%;
+            padding-left: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .details h2 {
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+
+        .form p {
+            margin-bottom: 20px;
+            color: gray;
+        }
+
+        .form-input input,
+        .form-input textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid lightgray;
+            border-radius: 5px;
+            font-size: 16px;
+            width: 100%;
+        }
+
+
+        .form button {
+            width: 100px;
+            height: 40px;
+            background-color: darkblue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .form button:hover {
+            background-color: peru;
+        }
+    </STYLe>
+</head>
+
+<body>
+    <div class="container">
+        <div class="details">
+
+            <i class='bx bxs-edit-location'></i>
+            <h3>Address</h3>
+            <h6>chinhat bazar lucknow 226028 gmtinagar</h6>
+
+
+            <i class='bx bxs-phone'></i>
+            <h3>Phone</h3>
+            <h6>+0987656453</h6>
+            <h6>+1543749272</h6>
+
+
+            <i class='bx bxs-envelope'></i>
+            <h3>Email</h3>
+            <h6>damnyouparal@gmail.com</h6>
+            <h6>guptaparaklh1999@gmail.com</h6>
+
+
+        </div>
+        <div class="form">
+            <h2>Send us a message</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem similique repellendus
+                natus,
+                sint, sed,
+                magni odio distinctio fuga porro ea atque sit eos sapiente minima hic eligendi optio quo quaerat.
+            </p>
+            <div class="form-input">
+                <input Type="text" placeholder="Name">
+                <input Type="email" placeholder="Email">
+                <textarea placeholder="information" name="message" id="" cols="30" rows="4"></textarea>
+                <button>Send Now</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
